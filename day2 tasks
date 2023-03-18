@@ -1,1 +1,56 @@
+DAY-2
+1.difference between document and windows object.
+Ans:
+DOCUMENT objects
+When we click any web url,the window loads some webpage.If where we inspect, 
+a HTML document will arise. That is a particular Windows document. the documents 
+are the root node of HTML documents. the document object is the properties of 
+window object.
 
+the document object accessed with 
+ window.document or document
+ex:
+  let url = window.document.URL;
+            or
+  let url = document.URL;
+
+Every document have some properties and methods
+like
+   body  ---  Returns the document,s body.
+   head  ---  Returns the <head>element of the document.
+   links  ---  Returns a collection of all <a> and <area> elements in the
+   document that has a href attribute.
+   title  ---  Sets or returns the title of the document.
+   write  ---  Writes HTML expressions or JavaScript code to a document.
+   getElementsById() ---  Returns the element that has the ID attribute 
+   with the specified value.
+   getElementsByClassName()  ---  Returns an HTMLCollection containing 
+   all elements with the specified class name.
+
+WINDOW object
+The window object represents an open window in a browser.when we click any 
+web url, the windows loads some webpage thats window visualizing objects are 
+are the window objects. the browser creates a window object for the html document
+of the particular url.
+
+the window object accessed with
+window.property
+ex:
+  window.scroll;
+
+Every window have some properties
+like
+   closed  ---  It returns a boolean true if a window is closed.
+   frameElement  ---  It returns the frame in which the window runs.
+   history  ---  It returns the History object for the window.
+   location  ---  It returns the Location object for the window.
+   navigator  ---  It returns the Navigator object for the window.
+   parent  ---  It returns the parent window of the current window.
+
+have some methods
+like
+   alert()  ---  Displays an alert box with a message and an OK button.
+   close()  ---  Closes the current window.
+   confirm()  ---  Displays a dialog box with a message and an OK and a Cancel button.
+   moveBy()  ---  It moves a window relative to its current position.
+   moveTo()  ---  It moves a window to the specified position.
